@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>par ou impar</title>
+    <style>
+          body{
+            background-color: rgb(173, 173, 243);
+          }
+       
+        section{
+            border: solid 1px;
+            margin: auto;
+            width: max-content;
+            margin-top:150px ;
+            padding: 50px;
+            border-radius: 40px;
+            background-color: rgb(156, 162, 248);
+            color: white;
+        }
+        div{
+            text-align: center;
+            font-size: 27px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        
+        }
+        input{
+            width: 50px;
+            height: 50px;
+            border-radius: 20px ;
+            border: solid 2px white;
+            
+            background-color: rgb(151, 135, 241);
+          
+        }
+        button{
+            padding: 10px;
+            border: solid 2px white;
+            border-radius: 20px ;
+             background-color: rgb(151, 135, 241);
+            color:white;
+        }
+        button:hover{
+            background-color: rgb(161, 157, 209);
+            padding:13px ;
+        }
+        input:hover{
+            background-color: rgb(161, 157, 209);
+            padding:3px ;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            Par ou Impar:
+            <br><br>
+            <input type="number" id="n">
+            <br><br>
+            <button onclick="imp()">descubra</button>
+        </div>
+             <br>
+        <div id="resu"></div>
+    </section>
+    <script src="pi.js"></script>.
+</body>
+</html>
